@@ -18,8 +18,8 @@ class Solution {
             curr.next=temp;
             temp=curr;
             curr=head;
-        }curr.next = temp;
+        }head.next = temp;
         temp = curr;
-        return curr;
+        return head;
     }
 }
